@@ -72,3 +72,14 @@ This Webots project implements two classical path planning algorithms — **Brea
 | Heuristic-Based  | ❌ No         | ✅ Yes         |
 
 ---
+
+---
+
+## 👩‍💻 Developers Information
+
+Developed by **[Sheema Firdous](https://www.linkedin.com/in/sheema-firdous-67b9b8181/)**  
+as part of the **Cognitive Systems and Robotics** module assessment  at **[Sheffield Hallam University](https://www.shu.ac.uk/)**
+
+Supervised by [Dr. Samuele Vinanzi](https://www.linkedin.com/in/samuelevinanzi/)
+
+This project demonstrates the practical application of Path Planning in Cognitive and Autonomous robotics using Webots and Python.
