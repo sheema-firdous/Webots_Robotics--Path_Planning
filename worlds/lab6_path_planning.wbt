@@ -1,0 +1,77 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "../protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/factory/containers/protos/WoodenBox.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.5773500784048774 -0.5773516695306102 -0.577349059630393 4.188789704032441
+  position -0.0007800747841426372 0.009098680534046725 2.1252396713549864
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 0.8 0.8
+  floorTileSize 0.2 0.2
+}
+E-puck {
+  translation -0.24926811219327075 -0.35111900000987123 -6.396199560309776e-05
+  rotation 0.36595100432364625 0.9252978133170731 0.09951793358564913 1.3354678718073383e-08
+  controller "BFS_exercise_1"
+  extensionSlot1 [
+    InertialUnit {
+    }
+  ]
+  extensionSlot2 [
+    GPS {
+    }
+  ]
+}
+WoodenBox {
+  translation -0.199517 -0.000180378 0.05
+  size 0.2 0.2 0.1
+}
+WoodenBox {
+  translation 0.04949 -0.299756 0.05
+  name "wooden box(1)"
+  size 0.1 0.2 0.1
+}
+WoodenBox {
+  translation 0.0500733 0.0961156 0.05
+  name "wooden box(2)"
+  size 0.1 0.2 0.1
+}
+WoodenBox {
+  translation 0.248901 -0.0983811 0.05
+  name "wooden box(4)"
+  size 0.1 0.2 0.1
+}
+WoodenBox {
+  translation 0.20003 0.0470818 0.05
+  name "wooden box(3)"
+  size 0.2 0.1 0.1
+}
+Solid {
+  translation 0.24836 0.147487 0.01
+  children [
+    Shape {
+      appearance Appearance {
+        texture ImageTexture {
+          url [
+            "mark.png"
+          ]
+        }
+      }
+      geometry Plane {
+        size 0.1 0.1
+      }
+    }
+  ]
+  name "target"
+}
